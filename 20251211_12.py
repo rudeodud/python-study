@@ -1,0 +1,8 @@
+print("원소가 모두 0:",[0 for i in range(10)])
+print("또다른 방법:",[0]*10)
+print("워소가 모두 'hi:", ['Hi' for i in range(10)])
+print("1부터 10 까지:", [i for i in range(1, 11)])
+print("또 다른 방법:", list(range(1, 11)))
+print("5부터 15 까지의 홀수", [i for i in range(5, 16 ,2)])
+print("60 부터 40 까지 3의 배수", [i for i in range(60, 39, -3)])
+print("A부터 F까지", [chr(i) for i in range(ord('A'), ord('F')+1)])

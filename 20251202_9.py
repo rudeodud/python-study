@@ -1,0 +1,5 @@
+user = input("String?").strip()
+li = list(user)
+print(li)
+print(li[0])
+print(li[2])
