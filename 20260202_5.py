@@ -1,0 +1,5 @@
+address=input('이메일 주소를 입력 하세요: ')
+(id, domain) = address.split('@')
+print(address)
+print("아이디:"+id)
+print("도메인:"+domain)
